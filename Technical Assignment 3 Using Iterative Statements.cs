@@ -44,6 +44,8 @@ namespace Technical_Assignment_3_Using_Iterative_Statements
 
 
                     // This FOR loop computes and prints a table of values showing CAD to USD conversion
+                    // It starts at 0 CAD and does not go beyond 200 CAD.
+                    // The CAD value increments based on the UserInputValue.
                     for (int i = 0; i <= 200; i = i += UserInputValue)
                     {
                         // This data type stores the CAD to USD conversion rate multiplication function
@@ -92,5 +94,3 @@ namespace Technical_Assignment_3_Using_Iterative_Statements
         }
     }
 }
-
-            
